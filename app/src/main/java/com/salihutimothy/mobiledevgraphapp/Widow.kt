@@ -1,7 +1,7 @@
 package com.salihutimothy.mobiledevgraphapp
 import android.os.Parcel
 import android.os.Parcelable
-class Widow(
+data class Widow(
     var id: String?, var fullName: String?, var dob: String?, var employmentStatus: String?,
     var occupation: String?, var phoneNumber: String?, var address: String?,
     var homeTown: String?, var lga: String?, var senatorialZone: String?, var state: String?,
